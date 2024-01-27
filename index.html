@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeAPI Example</title>
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <div>
+        <label for="pokemon-name">Search Pokemon Name or ID:</label><br>
+        <input type="text" id="pokemon-name" name="pokemon-name" value="Bulbasaur"><br>
+        <button id="submit">Submit</button>
+        <p>
+            Name: <span id="name"></span><br>
+            Type: <span id="types"></span><br>
+        </p>
+        <canvas id="statChart" width="800px" height="400px"></canvas>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</html>

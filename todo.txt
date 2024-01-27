@@ -1,0 +1,21 @@
+API - Application Programming Interface
+using fetch, put a URL in fetch (fetch(URL)) and comes back some data from the URL
+Will be using the PokeAPI for this example
+Using APIs usually deal with JSON objects
+
+
+The Project:
+    Instead of using a csv, use PokeAPI to grab a searched Pokemon name and display their types and stats on a webpage
+
+
+Pseudocode:
+    store URL as a variable (https://pokeapi.co/api/v2/pokemon/)
+    async function getPokemon(Pokemon Name)
+        await fetch(URL + Pokemon Name)
+        convert response data into JSON object
+        grab Name, Types, and all Stats from the object
+        Put them into an HTML element
+
+    Search bar with button that allows user to input a name
+    when button is pressed, send that data into the getPokemon function
+    
